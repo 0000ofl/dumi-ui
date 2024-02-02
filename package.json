@@ -22,7 +22,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/0000ofl/dumi-ui.git",
-    "branch": "main"
+    "branch": "master"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
