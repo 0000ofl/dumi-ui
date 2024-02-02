@@ -1,0 +1,17 @@
+export { add, endOf, eq, gt, gte, hours, inRange, lt, lte, max, milliseconds, min, minutes, month, neq, seconds, startOf, } from 'date-arithmetic';
+export declare function monthsInYear(year: any): any[];
+export declare function firstVisibleDay(date: any, localizer: any): any;
+export declare function lastVisibleDay(date: any, localizer: any): any;
+export declare function visibleDays(date: any, localizer: any): any[];
+export declare function ceil(date: any, unit: any): any;
+export declare function range(start: any, end: any, unit?: string): any[];
+export declare function merge(dateA: Date | null, times: Date | null): any;
+export declare function eqTime(dateA: any, dateB: any): boolean;
+export declare function isJustDate(date: any): boolean;
+export declare function duration(start: any, end: any, unitA: string, firstOfWeek: any): number;
+export declare function diff(dateA: any, dateB: any, unit: any): number;
+export declare function total(date: any, unit: any): number;
+export declare function week(date: any): number;
+export declare function today(): any;
+export declare function yesterday(): any;
+export declare function tomorrow(): any;
