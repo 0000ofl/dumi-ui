@@ -1,3 +1,10 @@
+/*
+ * @Author: ofl
+ * @Description:
+ * @Date: 2024-02-02 17:21:45
+ * @LastEditTime: 2024-02-03 14:47:04
+ * @FilePath: \dumi-template\.umirc.ts
+ */
 import { defineConfig } from 'dumi';
 
 const repo = 'dumi-template';
@@ -12,8 +19,9 @@ export default defineConfig({
   mode: 'site',
   hash: true,
   // Because of using GitHub Pages
-  base: `/${repo}/`,
-  publicPath: `/${repo}/`,
+  base: `/`,
+  publicPath: `/`,
+  history: { type: 'hash' },
   navs: [
     null,
     {
