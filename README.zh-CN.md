@@ -2,12 +2,14 @@
  * @Author: ofl
  * @Description: 
  * @Date: 2024-02-03 15:06:59
- * @LastEditTime: 2024-05-07 14:30:19
- * @FilePath: \dumi-template\README.zh-CN.md
+ * @LastEditTime: 2024-05-07 17:54:50
+ * @FilePath: \dumi-ui\README.zh-CN.md
 -->
 # 🌟 Dumi Template
 
 发布github部署环境
+
+pnpm run deploy
 
 为组件开发场景而生的文档模板
 
