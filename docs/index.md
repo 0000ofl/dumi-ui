@@ -1,8 +1,8 @@
 ---
-title: dumi - A doc tool can assist you to develop libraries & write docs.
+title: ow_ui - A doc tool can assist you to develop libraries & write docs.
 order: 10
 hero:
-  title: dumi
+  title: ow_ui
   desc: 📖 A doc tool can assist you to develop libraries & write docs.
   actions:
     - text: Getting Started

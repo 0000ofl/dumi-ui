@@ -2,12 +2,12 @@
  * @Author: ofl
  * @Description:
  * @Date: 2024-02-02 17:21:45
- * @LastEditTime: 2024-02-03 15:31:08
- * @FilePath: \dumi-template\.umirc.ts
+ * @LastEditTime: 2024-05-07 15:47:36
+ * @FilePath: \dumi-ui\.umirc.ts
  */
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-ui';
+const repo = 'ow-ui';
 
 export default defineConfig({
   title: repo,

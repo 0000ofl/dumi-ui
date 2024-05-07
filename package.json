@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "dumi-template",
+  "name": "ow-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && dumi dev",
