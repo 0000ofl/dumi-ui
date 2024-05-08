@@ -1,5 +1,5 @@
 ---
-title: oflBigCalendar
+title: OWBigCalendar
 group:
   title: 基础功能组件
   path: /basicFun
