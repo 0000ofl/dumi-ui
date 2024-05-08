@@ -1,5 +1,10 @@
 ---
+title: oflTable
+group:
+  title: 基础功能组件
+  path: /basicFun
 nav:
+  title: 组件
   path: /components
 ---
 
@@ -209,7 +214,6 @@ export default () => {
 
 };
 ```
-
 
 Demo2:
 

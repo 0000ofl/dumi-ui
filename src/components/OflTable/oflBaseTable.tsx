@@ -1,4 +1,4 @@
-import { treeForEach } from '../utils/data';
+import { treeForEach } from '../../utils/data';
 import { DownOutlined, FilterFilled } from '@ant-design/icons';
 import {
   BaseTable,
