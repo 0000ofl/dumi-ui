@@ -81,6 +81,7 @@ const OflBaseTable = (props: any, ref: any) => {
     columnResize,
     isStickyHeader = true, //吸顶
     isActionBar = true,
+    isFooter = false,
     actionBar,
     // dataSourceHash,
     // className,
@@ -119,7 +120,6 @@ const OflBaseTable = (props: any, ref: any) => {
     // upDownKeyFun,
     ...tableProps
   } = props;
-  console.log(props, defaultColumns, defaultDataSource, '11111111111111111111');
   // 表格过滤
   // const [columns, dataSource] = useAmsTableFilter(
   //   defaultColumns,
@@ -319,6 +319,7 @@ const OflBaseTable = (props: any, ref: any) => {
         }}
         useOuterBorder
       />
+      {isFooter ? <div></div> : null}
       {/* </div> */}
     </GlobalDndContext>
   );
