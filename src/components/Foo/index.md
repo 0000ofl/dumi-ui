@@ -8,7 +8,7 @@ nav:
   path: /components
 ---
 
-## Foo
+## OWFoo
 
 Demo:
 
