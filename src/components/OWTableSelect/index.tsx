@@ -2,14 +2,13 @@
  * @Author: ofl
  * @Description:
  * @Date: 2024-05-09 09:01:22
- * @LastEditTime: 2024-05-11 09:20:54
- * @FilePath: \dumi-ui\src\components\OWSelect\index.tsx
+ * @LastEditTime: 2024-05-11 09:19:44
+ * @FilePath: \dumi-ui\src\components\OWTableSelect\index.tsx
  */
 import { Select, Tooltip, TreeSelect } from 'antd';
 import React, { useMemo } from 'react';
-import { OWSelectProps } from './interface';
 
-const OWSelect = ({
+const OWTableSelect = ({
   treeMode,
   addonAfter,
   size,
@@ -18,8 +17,7 @@ const OWSelect = ({
   radioSrting = false,
   valueSeparator,
   ...props
-}: OWSelectProps) => {
-
+}) => {
   // 计算实时value
   const realTimeValue = useMemo(() => {
     let myValue: any[] = value || [];
@@ -38,11 +36,7 @@ const OWSelect = ({
     <div>
       <Tooltip>
         <div>
-          {treeMode ? (
-            <TreeSelect />
-          ) : (
-            <Select value={realTimeValue} {...props} />
-          )}
+          {treeMode ? <TreeSelect /> : <Select value={value} {...props} />}
         </div>
       </Tooltip>
       {addonAfter ? (
@@ -52,4 +46,4 @@ const OWSelect = ({
   );
 };
 
-export default OWSelect;
+export default OWTableSelect;
